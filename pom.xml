@@ -38,7 +38,8 @@
           <groupId>org.springframework.boot</groupId>
           <artifactId>spring-boot-maven-plugin</artifactId>
         <configuration>
-          <mainClass>org.me.ErrorMakerApplication</mainClass>
+<!--          <mainClass>org.me.ErrorMakerApplication</mainClass>-->
+          <mainClass>org.me.HighCPUApplication</mainClass>
         </configuration>
       </plugin>
       <plugin>
